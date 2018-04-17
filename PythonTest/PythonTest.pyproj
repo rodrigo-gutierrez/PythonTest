@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ce57f288-c667-40ef-ad70-b79514601f3e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonTest.py</StartupFile>
+    <StartupFile>GaussianNaiveBayesTest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GaussianNaiveBayesTest.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonTest.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
